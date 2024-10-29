@@ -1,0 +1,59 @@
+body {
+    background-color: #333; /* สีพื้นหลัง */
+    color: rgb(5, 4, 4); /* สีข้อความ */
+    font-family: Arial, sans-serif; /* ฟอนต์ */
+    text-align: center; /* จัดข้อความกลาง */
+}
+.circle {
+    width: 150px; /* ขนาดของกรอบวงกลม */
+    height: 150px; /* ขนาดของกรอบวงกลม */
+    border-radius: 50%; /* ทำให้กรอบเป็นวงกลม */
+    overflow: hidden; /* ซ่อนส่วนที่เกิน */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* จัดกลาง */
+    border: 5px solid white; /* กรอบสีขาว */
+}
+img {
+    width: 100%; /* ทำให้รูปภาพเต็มกรอบ */
+    height: auto; /* รักษาสัดส่วน */
+}
+.text {
+    margin-top: 10px; /* ระยะห่างระหว่างรูปกับข้อความ */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #218838;
+}
+      
+
+     
+   
+    
+  
